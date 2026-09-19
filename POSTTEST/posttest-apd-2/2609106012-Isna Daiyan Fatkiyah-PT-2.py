@@ -16,9 +16,10 @@ Total_Bayar = Total_Belanjaan + Pajak
 
 Rata_Rata = Total_Belanjaan / len(Barang)
 
-bolean = NIM < Rata_Rata
+Bolean = NIM < Rata_Rata
 
 Total_Bayar_Baht = Total_Bayar / 533.8582
+
 Total_Bayar_Won = Total_Bayar / 12.8243
 
 print ("Harga Barang yang Dibeli (Barang 1)               : Rp", Barang_1)
@@ -34,5 +35,5 @@ print ("Rata-rata Belanjaan                               : Rp", Rata_Rata)
 print ("Total Bayar dalam Baht                            : ฿", Total_Bayar_Baht)
 print ("Total Bayar dalam Won                             : ₩", Total_Bayar_Won)
 print ("NIM (2 digit terakhir NIM)                        :", NIM)
-print ("Bolean (NIM < Rata-rata)                          :", bolean)
+print ("Bolean (NIM < Rata-rata)                          :", Bolean)
 print ("Harga barang 1, Barang 3, dan Barang 5            : Rp",Barang[0:5:2])
