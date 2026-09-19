@@ -36,4 +36,3 @@ print ("Total Bayar dalam Won                             : ₩", Total_Bayar_Wo
 print ("NIM (2 digit terakhir NIM)                        :", NIM)
 print ("Bolean (NIM < Rata-rata)                          :", bolean)
 print ("Harga barang 1, Barang 3, dan Barang 5            : Rp",Barang[0:5:2])
-
