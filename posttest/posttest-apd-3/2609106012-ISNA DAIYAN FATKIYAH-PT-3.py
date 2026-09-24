@@ -22,13 +22,13 @@ else:
     #penentuan harga tiket    
     if jenis_tiket == "reguler" or jenis_tiket == "1":
         harga_tiket = 50000
-        jenis_tiket = "reguler"
+        jenis_tiket = "Reguler"
     elif jenis_tiket == "premium" or jenis_tiket == "2":
         harga_tiket = 75000
-        jenis_tiket = "premium"
+        jenis_tiket = "Premium"
     elif jenis_tiket == "vip" or jenis_tiket == "3": 
         harga_tiket = 100000
-        jenis_tiket = "vip"
+        jenis_tiket = "VIP"
     else:
         harga_tiket = 0
 
@@ -64,7 +64,8 @@ else:
             print("=" * 40)
             print("Nama pembeli          : ", nama_pembeli)
             print("Umur pembeli          : ", umur_pembeli)
-            print("Jenis tiket           : ", jenis_tiket.capitalize())
+            print("Jenis tiket           : ", jenis_tiket)
+            print("Status Member         : ", status_member)
             print("-" * 40)
             print("Harga tiket           : Rp", harga_tiket)
             if status_member == "ya":
