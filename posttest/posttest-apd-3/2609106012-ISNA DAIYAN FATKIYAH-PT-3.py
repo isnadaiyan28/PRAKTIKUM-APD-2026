@@ -63,6 +63,6 @@ else:
             print("Biaya admin           : Rp", biaya_admin)
             print("-" * 40)
             print("Total bayar           : Rp", total_bayar)
-            print("Uang bayar            : RP", bayar )
+            print("Uang bayar            : Rp", bayar )
             print("Kembalian             : Rp", kembalian)
             print("=" * 40)
